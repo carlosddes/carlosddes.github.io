@@ -1,0 +1,241 @@
+/* General Styles */
+body {
+    margin: 0;
+    background-color: #EDF2F4;
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7C7A7A;
+    border-bottom: solid #14110F;
+    padding: 10px;
+}
+
+nav p, nav a {
+    font-family: "Inter", serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #6B6A6A;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px 0px 25px 0px;
+    background-color: #7C7A7A;
+    border-top: solid #14110F;
+}
+
+footer a {
+    font-family: "Inter", serif;
+    font-size: medium;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+/* Splash Section */
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+}
+
+.splash h1 {
+    font-family: "Inter", serif;
+    font-size: xx-large;
+    font-weight: 700;
+    color: #485682;
+}
+
+.splash img {
+    border-radius: 50%;
+    border-style: dashed;
+
+}
+
+.splash p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.address {
+    font-weight: 200;
+}
+
+.tagline {
+    font-size: large;
+    font-weight: 400;
+}
+
+/* Horizontal Rules */
+hr {
+    border-color: black;
+    border-style: dashed;
+    min-width: 100%;
+}
+
+/* Sections */
+section {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    border: solid #7C7A7A;;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Roboto Condensed", serif;
+    font-size: xx-large;
+    text-decoration: underline;
+    color: #6091d3;
+    margin-top: 0px;
+}
+
+/* Education Paragraph Style */
+.edu {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+}
+
+/* link styles */
+section a {
+    color: #D3A260;
+    text-decoration: none;
+}
+section a:hover {
+    color: #AE7830;
+    font-size: large;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+dl dt{
+    font-weight: 700;
+}
+dl dd{
+    font-style: italic;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: solid #7C7A7A;;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+
+.card img {
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h3 {
+    font-family: "Inter", serif;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.card ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 20px;
+    color: black;
+    font-weight: 300;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 25px 0px 25px 0px;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: x-large;
+    gap: 15px;
+}
+
+form input {
+    min-width: 250px;
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+form textarea {
+    border-radius: 5px;
+}
+
+form button {
+    border: solid #20DF8E;
+    border-radius: 10px;
+    background-color: #20DF8E;
+    font-family: "Inter", serif;
+    font-size: large;
+}
+
+form button:hover {
+    background-color: #32CD84;
+    border: solid #32CD84;
+}
+
+/* Thank You Page Styles */
+.ThankYou {
+    color: #485682;
+    text-align: center;
+}
